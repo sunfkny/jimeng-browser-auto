@@ -29,7 +29,7 @@ def main(prompt: str, use_get_asset_list: bool = True):
     """
     Params:
         prompt: str 提示词
-        use_get_asset_list: bool 是否使用 列表api返回值, 启用可能速度更快, 但是可能获取相同prompt的旧图片
+        use_get_asset_list: bool 是否使用 列表api返回值
     """
     prompt = prompt.replace("\n", " ")
 
